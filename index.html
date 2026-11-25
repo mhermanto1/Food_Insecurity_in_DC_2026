@@ -1,3 +1,46 @@
-<iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-src="https://arcgis.com/apps/mapviewer/index.html?webmap=2d8f59ae6ee840799cec0676c749d77b"></iframe>
-<h1>updated2</h1>
+<link rel="stylesheet" href="main.css">
+
+<!-- Embedded ArcGIS Online Map -->
+<!-- <div class="map-container">
+    <iframe
+        loading="lazy"
+        allowfullscreen
+        src="https://arcgis.com/apps/mapviewer/index.html?webmap=2d8f59ae6ee840799cec0676c749d77b">
+    </iframe>
+</div>
+
+<h1 class="test">updated2</h1> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Food Access in Washington, DC</title>
+
+        <!-- Leaflet CSS -->
+        <link
+            rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""
+        />
+    </head>
+    <body>
+        <header>
+            <h1>Food Access in Washington, DC</h1>
+            <p>Description here</p>
+        </header>
+        <!-- Map is gonna be here -->
+        <main>
+            <div id="map"></div>
+        </main>
+
+        <!-- Leaflet JS -->
+        <script
+            src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin="">
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
